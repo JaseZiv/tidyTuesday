@@ -34,7 +34,7 @@ peaks %>%
            colour = col_pal[1], family = "Andale Mono") +
   geom_segment(aes(x = 1984, xend = 2000, y = 0.4, yend = .455), colour = col_pal[2],
                arrow = arrow(length = unit(0.3, "cm")), size=0.4) +
-  annotate("text", x=1978, y= 0.48, label = "While there was a declining rate\nof new peaks climbed between the\nmid 80s to 2001",
+  annotate("text", x=1978, y= 0.48, label = "While there was a declining rate\nof new peaks climbed between the\nmid 1980s to 2001",
            colour = col_pal[2], family = "Andale Mono") +
   labs(x= "Year", y= "Percent of Peaks Climbed",
        caption = "Source: The Himalayan Database  ||  Visualisation: @Jase_Ziv83") +
