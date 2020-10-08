@@ -104,7 +104,9 @@ top_seeds_gt <- top_seeds %>%
     )
   )
 
-gtsave(top_seeds_gt, "ncaaw-top-conferences.png")
+top_seeds_gt
+
+gtsave(top_seeds_gt, "ncaaw-top-conferences.html")
 
 
 
